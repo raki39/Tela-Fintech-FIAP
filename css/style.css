@@ -2,7 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #f4f4f4;
     padding: 20px;
-    overflow-x: hidden; /* Evitar rolagem horizontal */
+    overflow-x: hidden; 
 }
 
 .sidebar {
@@ -37,7 +37,7 @@ body {
 }
 
 .table {
-    border-radius: 10px; /* Arredondando as bordas das tabelas */
+    border-radius: 10px; 
 }
 
 .table th, .table td {
