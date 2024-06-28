@@ -1,0 +1,62 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    overflow-x: hidden; /* Evitar rolagem horizontal */
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px;
+    width: 15%;
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.nav-link {
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.table {
+    border-radius: 10px; /* Arredondando as bordas das tabelas */
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.username {
+    color: #007bff;
+}
